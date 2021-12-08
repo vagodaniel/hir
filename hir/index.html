@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="képek/mechwart.png" alt="Mechwart logó" width="145px"></header>
+    <nav>
+        <h2>
+            Kiemelt rovatok
+        </h2>
+        <ul>
+            <li><a href="#1">Kiemelt hÍrek </a></li>
+            <li><a href="#2">NBA</a></li>
+            <li><a href="#3">Downhill</a></li>
+            <li><a href="#4">Apple</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Kiemelt híreink /külső section (szakasz)/</p>
+
+        <section>
+            <a name="1"></a>
+            <p>Kiemelt hírünk</p>
+
+            <article>
+                <h2>Vörös október - Az AMD bejelentette, hogy mikor fogja bejelenteni az újdonságait</h2>
+                <p>
+                    Tudtunk róla, hogy nagy bejelentés várható az AMD háza tájáról, ami végül meg is történt. Persze nem
+                    pont úgy, ahogy gondoltuk, ugyanis két időponttal és némi infó morzsával készült a gyártó, ami nem
+                    nevezhető igazi leleplezésnek, de ez is több, mint a semmi.
+                    <br>
+                    Elsőként az AMD új processzorai fognak bemutatkozni, egész pontosan október 8-án hull majd le a
+                    lepel a Zen 3-as architektúrájú egységekről. Minden bizonnyal az új Ryzen generáció kerül majd
+                    bemutatásra, nem pedig az EPYC vonalat görgetik tovább. Ezzel már komoly nyomást gyakorolhat a vörös
+                    gyártó az Intelre, feltéve ha igazak a gyártó korábbi állításai.
+                </p>
+                <h2>Az Intelnél végre célegyenesben a 7nm-es eljárás</h2>
+                <p>A bejelentés ezúttal Gregory M. Bryant tisztje volt, aki a Client Computing Group, avagy CCG
+                    ügyvezető alelnöke, mely szárny elsősorban a vállalat PC-s processzorainak és a kapcsolódó
+                    alkatrészek értékesítésével foglalkozik. A vezető a J.P. Morgan Global TMC Week (technológiai témájú
+                    konferencia) keretében örömmel közölte, hogy az új 7nm-es Meteor Lake chipek fejlesztése az utolsó
+                    szakaszához érkezett. </p>
+            </article>
+        </section>
+        <section>
+            <a name="2"></a>
+            <p>Kosárlabda rovat</p>
+            <article>
+
+                <h1>Jelenlegi NBA állás</h1>
+                <ul>
+                    <li>Brooklyn Nets</li>
+                    <li>Chicago Bulls</li>
+                    <li>Milwaukee Bucks</li>
+                    <li>Miami Heat</li>
+                    <li>Washington Wizards</li>
+                    <li>Philadelphia 76ers</li>
+                </ul>
+               <img src="képek/nba.png" width="100px">
+            </article>
+        </section>
+
+        <section>
+            <a name="3"></a>
+            <p>Downhill rovat</p>
+            <article>
+
+                <h1>RAD COMPANY
+                    DOWNHILL ORSZÁGOS BAJNOKSÁG</h1>
+                <p>
+                    Nyáron ismét érkezik a hazai downhill legfontosabb eseménye, a Rad Company Downhill Országos
+                    Bajnokság! A helyszín idén is Eplény.
+                    A Downhill OB idei pályájáról hamarosan érdekes információkkal szolgálhatunk, hiszen új év, új OB,
+                    új nyomok! A döntött kanyarokkal, ugratókkal, technikás szakaszokkal és további pályaelemekkel
+                    tarkított pályán mindenki megtalálhatja majd a maga számítását és kihívását, hiszen minden
+                    pályaelemnél természetesen kerülő nyomot is kialakítunk!
+                </p>
+            </article>
+<img src="képek/dh.jpg" alt="">
+            <h1>LUCA SHAW FASTEST AMERICAN AT DOWNHILL WORLD CHAMPIONSHIPS</h1>
+            <article>Luca Shaw rode smoothly and consistently, spending
+                some time in the hot seat after finishing his run. He clocked a time of 3:33.897 putting him 10th
+                fastest in the world at the end of the day./</article>
+            <article>He said, “To come to World Champs and get to represent my country is one of the greatest honors I
+                have in our sport. This race particularly is one that only matters how fast you go. I'm really proud of
+                the way I rode. I put my best foot forward today and swung for the fences and unfortunately came up
+                short. I’m happy to get the honor to come over here and race my bike, but I’m looking for more next
+                year.”</article>
+            <article>Neko Mulally (Pisgah Forest, N.C.; Intense Factory Racing) and Nikolas Nestoroff (San Diego,
+                Calif.; KHS Factory Racing) also competed.</article>
+        </section>
+
+        <section>
+        <a name="4"></a>    <p>Apple rovat</p>
+            <h2>Több új iPad is jön 2022-ben</h2>
+            <article>Az Apple a 2017-ben debütált ötödik generációs iPad óta minden egyes évben előrukkol egy új úgymond
+                "fapados" iPaddel, így idén szeptemberben már a széria kilencedik nekifutásáról hullott le a lepel.
+            </article>
+            <article>
+                Mark Gurman, a Bloomberg hírügynökség igen jól értesült szakértője szerint az eddigiekhez hasonlóan
+                jövőre sem kell világrengető újdonságra számítani az iPadtől. Mint ismeretes, a nemrégiben piacra dobott
+                aktuális generáció "agya" a nem éppen friss fejlesztésű A13 Bionic chipset, mely az A12-es elődjét
+                váltotta, és több mint valószínű, hogy a 2022-es iPadben egy A14-es SoC-t üdvözölhetünk majd. Korábban
+                több olyan pletykát lehetett hallani, miszerint az iPad átveszi majd az iPad Air designját, erre azonban
+                eddig még nem került sor, viszont jövőre talán ezt a lépést is meglépi majd a gyártó.
+            </article>
+            <img src="képek/apple.jpg" width="300px">
+        </section>
+        <footer>
+            Ez itt a lábléc!<br>
+            Ide kerülnek pld. Impresszium, elérhetőségek, közösségi média, stb
+        </footer>
+</body>
+
+</html>
